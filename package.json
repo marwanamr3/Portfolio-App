@@ -24,6 +24,6 @@
     "cookie-parser": "*",
     "multer": "*"
   },
-  "author": "Brad Traversy",
+  "author": "Marwan Amr",
   "license": "ISC"
 }
