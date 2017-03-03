@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GUC Portfolio</title>
+	<link rel="stylesheet" href="/css/bootstrap.css" />
+	<link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+ 	
+	<div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <% if (user) { %>
+            <li role="presentation"><a href="/users/myPortfolio">My Portfolio</a></li>
+              <li role="presentation"><a href="/users/logout">Logout</a></li>
+    
+              <% } else { %>
+              <li role="presentation"><a href="/users/summary">All Portfolios</a></li>
+              <li role="presentation"><a href="/users/login">Login</a></li>
+              <li role="presentation"><a href="/users/register">Register</a></li>
+            <% } %>
+          </ul>
+        </nav>
+        <h3 class="text-muted">GUC Portfolio</h3>
+      </div>
+
+      		<h2 class="page-header">Welcome</h2>
+			<p>GUC Portfolio is An Easy App to Access Students' Portfolios</p>  
+
+
+      <footer class="footer">
+        <p>&copy; 2017 GUC Portfolio, Inc.</p>
+      </footer>
+
+    </div> 
+</body>
+</html>
+
+
+

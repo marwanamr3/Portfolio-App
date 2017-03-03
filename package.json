@@ -1,0 +1,29 @@
+{
+  "name": "meanauthapp",
+  "version": "1.0.0",
+  "description": "student portfolio app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "dependencies":{
+    "express":"*",
+    "mongoose":"*",
+    "bcryptjs":"*",
+    "cors":"*",
+    "body-parser":"*",
+    "passport":"*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "connect-flash": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "ejs": "*",
+    "cookie-parser": "*",
+    "multer": "*"
+  },
+  "author": "Brad Traversy",
+  "license": "ISC"
+}

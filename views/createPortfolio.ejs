@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GUC Portfolio</title>
+  <link rel="stylesheet" href="/css/bootstrap.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  
+  <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+              <li role="presentation"><a href="/">Home</a></li>
+              <li role="presentation"><a href="/users/logout">Logout</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">GUC Portfolio</h3>
+      </div>
+
+        <h2 class="page-header">Create Portfolio</h2>
+    
+
+    <form method="post" action="/users/createPortfolio">
+   
+    <div class="form-group">
+    <label for="InputLink">Profile Picture</label>
+    <input name = "picture" type="file" class="form-control" id="InputTitle" placeholder="Picture">
+    </div>
+
+      <div class="form-group">
+    <label>Project Title</label>
+    <input type="text" class="form-control" placeholder="Title" name="title">
+     </div>
+
+      <div class="form-group">
+    <label>Link</label>
+    <input type="url" class="form-control" placeholder="Link" name="URL">
+     </div>
+
+     <div class="form-group">
+     <label for="InputLink">Screenshot</label>
+     <input name = "screenshot" type="file" class="form-control" id="InputTitle" placeholder="Screenshot">
+     </div>
+
+    <button type="submit" class="btn btn-default">Create</button>
+    </form>
+
+
+      <footer class="footer">
+        <p>&copy; 2017 GUC Portfolio, Inc.</p>
+      </footer>
+
+    </div> 
+</body>
+</html>
+
+
+
+
+
